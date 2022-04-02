@@ -1,0 +1,16 @@
+C:\Users\Alex\source\repos\Journal\Journal\Journal\bin\Debug\Journal.exe.config
+C:\Users\Alex\source\repos\Journal\Journal\Journal\bin\Debug\Journal.exe
+C:\Users\Alex\source\repos\Journal\Journal\Journal\bin\Debug\Journal.pdb
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\MainWindow.g.cs
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\App.g.cs
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal_MarkupCompile.cache
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal_MarkupCompile.lref
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\MainWindow.baml
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.g.resources
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.Properties.Resources.resources
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.exe
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.pdb

@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Journal"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Journal" Height="450" Width="450">
+    <StackPanel>
+        <TextBlock FontSize="30">Journal</TextBlock>
+        <TextBlock>Entry #1</TextBlock>
+    </StackPanel>
 </Window>
