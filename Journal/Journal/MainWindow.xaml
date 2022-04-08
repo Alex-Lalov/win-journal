@@ -3,11 +3,80 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:Journal.MVVM.ViewModel"
         xmlns:local="clr-namespace:Journal"
         mc:Ignorable="d"
-        Title="Journal" Height="450" Width="450">
-    <StackPanel>
-        <TextBlock FontSize="30">Journal</TextBlock>
-        <TextBlock>Entry #1</TextBlock>
-    </StackPanel>
+        Title="Journal" Height="600" Width="1000"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True">
+
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
+    
+    <Border Background="#17243b" CornerRadius="20">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Journal"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Foreground="White"
+                       FontSize="40"
+                       Margin="30,0,0,0"/>
+
+            <StackPanel Grid.Row="1">
+                <RadioButton Content="Home"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource RadioButtonTheme}"
+                             Command="{Binding HomeViewCommand}"/>
+                <RadioButton Content="All Entries"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource RadioButtonTheme}"
+                             Command="{Binding EntriesViewCommand}"/>
+                <RadioButton Content="Settings"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource RadioButtonTheme}"/>
+                
+
+            </StackPanel>
+
+            <TextBox VerticalContentAlignment="Center"
+                     HorizontalAlignment="Left"
+                     Margin="30,0,0,0"
+                     Grid.Column="1"
+                     Style="{StaticResource TextBoxSearch}"/>
+
+            <Border Grid.Column="1"
+                    CornerRadius="4"
+                    Margin="0,20,40,20"
+                    Background="DarkGray"
+                    HorizontalAlignment="Right">
+                <TextBox Text="Create New"
+                         Background="DarkGray"
+                         VerticalAlignment="Center"/>
+            </Border>
+
+            <ContentControl Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="10"
+                            Content="{Binding CurrentView}"/>
+
+
+        </Grid>
+
+    </Border>
 </Window>

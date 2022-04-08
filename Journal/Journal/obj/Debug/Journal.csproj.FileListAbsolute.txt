@@ -14,3 +14,11 @@ C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.csproj.Gene
 C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.csproj.CoreCompileInputs.cache
 C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.exe
 C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Journal.pdb
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Theme\RadioButtonTheme.baml
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\App.baml
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\Theme\TextBoxSearch.baml
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\MVVM\View\HomeView.g.cs
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\MVVM\View\HomeView.baml
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\MVVM\View\EntriesView.g.cs
+C:\Users\Alex\source\repos\Journal\Journal\Journal\obj\Debug\MVVM\View\EntriesView.baml

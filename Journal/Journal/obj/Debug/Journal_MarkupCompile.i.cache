@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Alex\source\repos\Journal\Journal\Journal\App.xaml
-1219584333
+5-2041378540
 
-9-1104721572
+16322071015
 13-1310406943
-MainWindow.xaml;
+MainWindow.xaml;MVVM\View\EntriesView.xaml;MVVM\View\HomeView.xaml;Theme\RadioButtonTheme.xaml;Theme\TextBoxSearch.xaml;
 
-False
+True
 

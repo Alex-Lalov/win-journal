@@ -2,8 +2,23 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Journal"
+             xmlns:viewModel="clr-namespace:Journal.MVVM.ViewModel"
+             xmlns:view="clr-namespace:Journal.MVVM.View"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/RadioButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/TextBoxSearch.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:EntriesViewModel}">
+                <view:EntriesView/>
+            </DataTemplate>
+            
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
